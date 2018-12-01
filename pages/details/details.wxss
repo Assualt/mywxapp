@@ -1,0 +1,77 @@
+/* pages/detail/details.wxss */
+@import '../../lib/iconfont.wxss'
+
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.header{
+  width: 100%;
+  height: 40px;
+  background: rgba(203,185,191,0.4);
+}
+.header-options{
+  width: 18%;
+  height: 86%;
+  padding: 5px 0 0 10px
+}
+.header-options i{
+  font-size:1.5em;
+  color: white;
+}
+.header-options text{
+  font-size:0.75em;
+  padding-top: 5px;
+  padding-left: 4px;
+  color: rgba(255,255,255,0.8);
+  font-weight: bold; 
+}
+.header-search{
+  width: 75%;
+  height: 100%;
+}
+.header-search input{
+  background: rgb(248,248,248);
+  width:92%;
+  height:75%;
+  margin-top:4px;
+  margin-left:4px;
+  border-radius:2em;
+  padding-left:14px;
+  padding-right:15px;
+  font-size: 0.8em;
+}
+.header-search button{
+  position:relative;
+  float:right;
+  top:-39px;
+  z-index:1;
+  height:40px;
+  padding-top:-2px;
+  background:none;
+}
+.header-search button::after{
+  border: none
+}
+.footer{
+  border-top: 1px solid #dedede;
+  position: fixed;
+  bottom: 0;
+  padding: 0 2%;
+  width: 100%;
+  height: 50px;
+}
+.footer-li{
+  width : 24%;
+  height : 100%;
+  float : left;
+  text-align : center;
+  padding:3% 0;
+  background-color: white;
+}
+.menu-icon-size{
+  font-size:1.5em;
+}

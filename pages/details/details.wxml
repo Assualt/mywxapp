@@ -1,0 +1,40 @@
+<!--pages/detail/details.wxml-->
+
+<view class='header fl'>
+  <view class='header-options fl'>
+    <i class='iconfont icon-list fl'></i>
+    <text class='fl'> 商品</text>
+  </view>
+  <form class='header-search fl' bindsubmit='btnsearch'>
+    <input placeholder='请输入商品名称' name='searchTag'></input>
+    <button form-type='submit'>
+      <i class='iconfont icon-search'></i>
+    </button>
+  </form>
+</view>
+<view class='nav'>
+  
+</view>
+<view class='footer'>
+  <view class='footer-li'>
+    <view href='#' bindtap='menu' id='menu_1'>
+      <i class="iconfont {{_menu_1==0?'icon-home_light':'icon-homefill'}} menu-icon-size" bindtap='menu'></i>
+    </view>
+  </view>
+  <view class='footer-li'>
+    <a href='#' bindtap='menu' id='menu_2'>
+      <i class="iconfont icon-search menu-icon-size"></i>
+    </a>
+  </view>
+  <view class='footer-li'>
+    <a href='#' bindtap='menu' id='menu_3'>
+      <i class="iconfont {{_menu_3==0?'icon-cart':'icon-cartfill'}} menu-icon-size"></i>
+    </a>
+  </view>
+  <view class='footer-li'>
+    <a href='#' bindtap='menu' id='menu_4'>
+      <i class="iconfont {{_menu_4==0?'icon-people':'icon-peoplefill'}} menu-icon-size"></i>
+    </a>
+  </view>
+</view>
+
